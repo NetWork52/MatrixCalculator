@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package matrix;
+
+enum OperationType {
+  ADDITION = 0;
+  MULTIPLICATION = 1;
+}
+
+service MatrixService {
+  rpc PerformMatrixOperation (MatrixRequest) returns (MatrixResponse);
+}
+
+message MatrixRequest {
+  int32 length = 1;
+  int32 width = 2;
+  OperationType operation = 3;
+  repeated int32 matrix_data = 4;
+}
+
+message MatrixResponse {
+  repeated int32 result = 5;
+}

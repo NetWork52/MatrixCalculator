@@ -1,0 +1,10 @@
+dotnet --version
+
+dotnet new console
+
+dotnet add package Grpc.AspNetCore
+dotnet add package Google.Protobuf
+dotnet add package Grpc.Tools
+
+dotnet add package Grpc.Core
+
