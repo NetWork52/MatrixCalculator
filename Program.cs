@@ -29,8 +29,7 @@ public class MatrixServiceImpl : MatrixService.MatrixServiceBase
 
 public class Program
 {
-    public static void Main(string[] args)
-    {
+    public static async Task Main(string[] args)    {
         // Создаем и настраиваем сервер
         var server = new Server
         {
@@ -40,9 +39,12 @@ public class Program
 
         // Запуск сервера
         server.Start();
-
         Console.WriteLine("Server listening on port 5000");
-        Console.ReadKey();
+        //Console.ReadKey();(УДОЛИТЬ НАХУЙ)
+
+         // Запускаем клиента
+        var client = new Client("http://localhost:5000");
+        await client.Run();
 
         // Ожидаем завершения работы сервера
         server.ShutdownAsync().Wait();
