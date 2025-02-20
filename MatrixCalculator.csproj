@@ -10,7 +10,10 @@
   <ItemGroup>
     <Protobuf Include="Protos\matrix.proto" GrpcServices="Server, Client" />
   </ItemGroup>
-
+  
+  <ItemGroup>
+    <PackageReference Include="RabbitMQ.Client" Version="6.5.0" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Google.Protobuf" Version="3.29.3" />

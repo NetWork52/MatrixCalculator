@@ -28,3 +28,4 @@ C:\Users\RobotComp.ru\OneDrive\Рабочий стол\МИФИ\5 семестр
 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\МИФИ\5 семестр\Параллелька\MatrixCalculator\bin\Debug\net9.0\runtimes\win-x64\native\grpc_csharp_ext.x64.dll
 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\МИФИ\5 семестр\Параллелька\MatrixCalculator\bin\Debug\net9.0\runtimes\win-x86\native\grpc_csharp_ext.x86.dll
 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\МИФИ\5 семестр\Параллелька\MatrixCalculator\obj\Debug\net9.0\MatrixCalculator.sourcelink.json
+C:\Users\RobotComp.ru\OneDrive\Рабочий стол\МИФИ\5 семестр\Параллелька\MatrixCalculator\bin\Debug\net9.0\RabbitMQ.Client.dll
